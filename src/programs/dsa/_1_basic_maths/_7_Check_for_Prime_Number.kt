@@ -3,7 +3,7 @@ package programs.dsa._1_basic_maths
 import kotlin.math.sqrt
 
 fun main() {
-    print(_root_ide_package_.programs.dsa._basic_maths.isPrime(9))
+    print(isPrime(9))
 }
 
 //Every factor above √36 is just a mirror of one below it. So checking up to 6 is enough.

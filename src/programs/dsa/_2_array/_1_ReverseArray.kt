@@ -3,7 +3,7 @@ package programs.dsa._2_array
 
 
 fun main() {
-    println(_root_ide_package_.programs.dsa._1_array.reverseArray(arrayOf(1, 2, 3, 4, 5)).contentToString())
+    println(reverseArray(arrayOf(1, 2, 3, 4, 5)).contentToString())
 
 }
 

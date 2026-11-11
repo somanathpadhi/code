@@ -2,7 +2,7 @@ package programs.dsa._2_array
 
 
 fun main() {
-    println(_root_ide_package_.programs.dsa._1_array.secondSmallest(intArrayOf(3, 5, 7, 4, 2, 7)))
+    println(secondSmallest(intArrayOf(3, 5, 7, 4, 2, 7)))
 }
 
 fun secondSmallest(array: IntArray): Int {

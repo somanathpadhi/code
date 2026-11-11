@@ -2,7 +2,7 @@ package programs.dsa._4_string
 
 //swiss ->s
 fun main() {
-    println(_root_ide_package_.programs.dsa._3_string.repeatingChar("swiss"))
+    println(repeatingChar("swiss"))
 }
 //Find First Repeating Character
 fun repeatingChar(str: String): Char?{

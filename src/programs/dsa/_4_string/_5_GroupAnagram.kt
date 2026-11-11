@@ -19,7 +19,7 @@ fun main() {
         "bat"
     )
 
-    println(_root_ide_package_.programs.dsa._3_string.groupAnagram2(strs))
+    println(groupAnagram2(strs))
 }
 
 fun groupAnagram2(strArr: Array<String>): List<List<String>> {

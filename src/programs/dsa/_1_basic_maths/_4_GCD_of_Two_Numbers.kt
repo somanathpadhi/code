@@ -3,7 +3,7 @@ package programs.dsa._1_basic_maths
 import kotlin.math.min
 
 fun main() {
-    print(_root_ide_package_.programs.dsa._basic_maths.euclideanSolutionOptimal(4, 6))
+    print(euclideanSolutionOptimal(4, 6))
 }
 
 //optimal

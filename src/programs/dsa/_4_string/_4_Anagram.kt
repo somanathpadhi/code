@@ -2,7 +2,7 @@ package programs.dsa._4_string
 
 
 fun main() {
-    println(_root_ide_package_.programs.dsa._3_string.anagram("cat", "cta"))
+    println(anagram("cat", "cta"))
 }
 
 //6. Check if Two Strings are Anagrams

@@ -1,7 +1,7 @@
 package programs.dsa._4_string
 
 fun main() {
-   println(_root_ide_package_.programs.dsa._3_string.reverseWordInSentence("Hello World Kotlin"))
+   println(reverseWordInSentence("Hello World Kotlin"))
 }
 //Reverse Words in a Sentence
 //"Hello World Kotlin"

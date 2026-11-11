@@ -1,7 +1,7 @@
 package programs.dsa._4_string
 //swiss -> swi
 fun main() {
-    println(_root_ide_package_.programs.dsa._3_string.removeDuplicate("swiss"))
+    println(removeDuplicate("swiss"))
 }
 //Remove Duplicate Characters
 fun removeDuplicate(str: String): String{

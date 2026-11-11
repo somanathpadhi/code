@@ -2,7 +2,7 @@ package programs.dsa._4_string
 
 fun main() {
     val str = "fabcdabcgj"
-    print(_root_ide_package_.programs.dsa._3_string.longestSubS(str))
+    print(longestSubS(str))
 }
 
 fun longestSubstring2(s: String): String {

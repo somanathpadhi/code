@@ -2,7 +2,7 @@ package programs.dsa._2_array
 
 
 fun main() {
-    println(_root_ide_package_.programs.dsa._1_array.secondLargest(arrayOf(3, 5, 7, 4, 2, 7)))
+    println(secondLargest(arrayOf(3, 5, 7, 4, 2, 7)))
 }
 //second largest
 

@@ -5,7 +5,7 @@ package programs.dsa._4_string
 //"Hello World"
 //→ "olleH dlroW"
 fun main() {
-    println(_root_ide_package_.programs.dsa._3_string.reverEachWord("Hello World"))
+    println(reverEachWord("Hello World"))
 }
 
 fun reverEachWord(str: String): String {

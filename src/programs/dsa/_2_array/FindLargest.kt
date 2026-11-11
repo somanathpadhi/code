@@ -4,7 +4,7 @@ fun main() {
     val array = intArrayOf(1,2,3,4,6)
     // println(findLargest(array))
     //println(reverseArray(array).contentToString())
-    println(_root_ide_package_.programs.dsa._1_array.arraySortedCheck(array))
+    println(arraySortedCheck(array))
 
 }
 

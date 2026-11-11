@@ -2,7 +2,7 @@ package programs.dsa._4_string
 
 //swiss ->  w
 fun main() {
-    println(_root_ide_package_.programs.dsa._3_string.nonRepeatingChar("swiss"))
+    println(nonRepeatingChar("swiss"))
 }
 //Find First Non-Repeating Character //swi
 fun nonRepeatingChar(str: String): Char?{

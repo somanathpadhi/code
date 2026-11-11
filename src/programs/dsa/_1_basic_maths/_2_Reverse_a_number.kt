@@ -4,7 +4,7 @@ import kotlin.math.abs
 
 fun main() {
     val number = -1234
-    print(_root_ide_package_.programs.dsa._basic_maths.reverseANumber(number))
+    print(reverseANumber(number))
 }
 
 fun reverseANumber(no: Int): Int {

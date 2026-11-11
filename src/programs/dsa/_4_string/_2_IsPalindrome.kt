@@ -17,5 +17,5 @@ fun isPalindrome(str: String): Boolean {
 }
 
 fun main() {
-    println(_root_ide_package_.programs.dsa._3_string.isPalindrome("121"))
+    println(isPalindrome("121"))
 }

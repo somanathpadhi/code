@@ -24,5 +24,5 @@ fun countDigitsWithLog(digit: Int): Int{
 }
 fun main() {
     val digit = -546857
-    print(_root_ide_package_.programs.dsa._basic_maths.countDigitsWithLog(digit))
+    print(countDigitsWithLog(digit))
 }

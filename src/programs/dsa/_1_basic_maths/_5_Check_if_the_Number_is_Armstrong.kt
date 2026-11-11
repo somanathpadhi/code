@@ -4,7 +4,7 @@ import kotlin.math.abs
 import kotlin.math.log10
 
 fun main() {
-    print(_root_ide_package_.programs.dsa._basic_maths.checkIfTheNumberIsArmstrongWithLogOptimal(371))
+    print(checkIfTheNumberIsArmstrongWithLogOptimal(371))
 }
 
 fun checkIfTheNumberIsArmstrongWithLogOptimal(no: Int): Boolean{
@@ -22,8 +22,8 @@ fun checkIfTheNumberIsArmstrongWithLogOptimal(no: Int): Boolean{
 
 
 fun checkIfTheNumberIsArmstrong(no: Int): Boolean{
-    val power  = _root_ide_package_.programs.dsa._basic_maths.countDigitsForArmStrong(no)
-    val result = _root_ide_package_.programs.dsa._basic_maths.calculate(no, power)
+    val power  = countDigitsForArmStrong(no)
+    val result = calculate(no, power)
     return no == result
 
 }

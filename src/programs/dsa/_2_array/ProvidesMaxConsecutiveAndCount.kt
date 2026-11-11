@@ -8,7 +8,7 @@ fun main() {
 //[100,2,3,1,4,200] -> 4(1,2,3,4)
 //[100,2,3,1,4,200,101,102,103,104,105] -> 6(100....105)
     val intArray = intArrayOf(100,2,3,1,4,200)
-    print (_root_ide_package_.programs.dsa._1_array.providesMaxConsecutiveAndCount(intArray))
+    print (providesMaxConsecutiveAndCount(intArray))
 }
 
 fun providesMaxConsecutiveAndCount(intArray: IntArray): Int {

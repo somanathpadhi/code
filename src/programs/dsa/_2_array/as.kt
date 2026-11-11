@@ -211,9 +211,9 @@ fun mergeTwoSortedArray(arr1: IntArray, arr2: IntArray): IntArray {
 // 4 5  6  7  1  2   3
 
 fun rotateK(arr: IntArray, k: Int): IntArray {
-    _root_ide_package_.programs.dsa._1_array.reverse(0, arr.size - 1, arr)
-    _root_ide_package_.programs.dsa._1_array.reverse(0, k - 1, arr)
-    _root_ide_package_.programs.dsa._1_array.reverse(k, arr.size - 1, arr)
+    reverse(0, arr.size - 1, arr)
+    reverse(0, k - 1, arr)
+    reverse(k, arr.size - 1, arr)
 
     return arr
 }
@@ -242,9 +242,9 @@ class User(name: String, age: Int) {
 }
 
 fun main() {
-    val n = _root_ide_package_.programs.dsa._2_array.Outer.Nested().m1()
-    val n2 = _root_ide_package_.programs.dsa._1_array.Outer2().Inner().m1()
-    val c = _root_ide_package_.programs.dsa._2_array.User2.CompanionClas.create()
+    val n = Outer.Nested().m1()
+    val n2 = Outer2().Inner().m1()
+    val c = User2.CompanionClas.create()
 
     val list = listOf<String>("a", "d")
     //  list.printAll()

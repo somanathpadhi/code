@@ -2,7 +2,7 @@ package programs.dsa._5_search_and_sort
 
 fun main() {
     val list = intArrayOf(1, 3, 5, 7, 2, 4, 6)
-    println(_root_ide_package_.programs.dsa._4_search_and_sort.insertionSort(list).contentToString())
+    println(insertionSort(list).contentToString())
 
 }
 

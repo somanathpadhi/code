@@ -45,5 +45,5 @@ fun main() {
 
     //----------------
     val pricesArray = arrayOf(7, 1, 5, 3, 6, 4, 9)
-    print(_root_ide_package_.programs.dsa._1_array.maxProfitWithTimeN(pricesArray))
+    print(maxProfitWithTimeN(pricesArray))
 }

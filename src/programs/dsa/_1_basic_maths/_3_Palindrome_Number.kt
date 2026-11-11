@@ -14,5 +14,5 @@ fun reverse(x: Int): Int {
     return if(x < 0) -rev else rev
 }
 fun main() {
-    print(_root_ide_package_.programs.dsa._basic_maths.reverse(456))
+    print(reverse(456))
 }
