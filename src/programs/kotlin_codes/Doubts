@@ -1,0 +1,116 @@
+@JvmOverloads
+crossinline
+coroutineContext
+
+timeouts in Kotlin Coroutines
+How do you combine multiple coroutine results?
+What happens if an exception is thrown inside an async coroutine, but await() is never called?
+Debounce Using Coroutines?
+Kotlin code snippet demonstrating how to run two coroutines in series and parallel
+stateIn vs shareIn in Kotlin Flow
+flatMapConcat, flatMapMerge, and flatMapLatest in Kotlin Flow
+collect vs collectLatest in Kotlin Flow
+
+//1.delegation\
+//Delegated properties
+//Standard delegates  Lazy properties Observable properties
+
+//how to count recomposition in compose
+//memory allocation in which thread in compose
+// launch effect  works in which thread
+
+
+//by
+//delegate
+// order of init and constructor
+// inline , crossinline , non inline, infix, reified, tailrec, vararg * operator
+//inline fun <reified T: Any> Gson.fromJson(json: JsonElement): T = this.fromJson(json, T::class.java)
+//lateinit lazy
+//operator, operator overloading
+//jvm over, jvmstatic, jvmfield
+// inner class
+//generic extension function
+//Bitwise operations
+
+//custom shuffle logic
+
+//local return, non local return
+//concorrency hashmap and hashmap
+
+//Generic functions﻿
+//fold
+
+
+
+how to pass key as a rememberSavable, benefit, usecases
+how to migrate xml to compose
+side effects
+state hoisting
+
+
+
+2 Lambda expressions with receiver
+3 inner class , nested class
+4 generic Sealed classes
+
+5 sealed class programs.kotlin_codes.Result<out T> {
+
+    data object Loading : programs.kotlin_codes.Result<Nothing>()
+
+    data class Success<T>(val data: T) : programs.kotlin_codes.Result<T>()
+
+    data class Error(val message: String) : programs.kotlin_codes.Result<Nothing>()
+}
+proper study of this generic sealed class is required
+6 variance, covariance, contravariance
+7. Inline value classes
+12. receiver
+13  annotation class
+14 anonymous obj
+15 inline, non-inline crossinline refined
+16 infix
+18 operator
+19 tailrec
+20 vararg
+21 jvm overload , jvm static, jvm field
+25 Java 7's try-with-resources
+26. generic class and generic fun
+27. Bitwise operations
+28 NaN
+29 Array class, Arrays
+30 escape character
+31 local return and non local return
+32 sealed interface and its uses
+sealed class UIState {
+    data object Loading : UIState()
+    data class Success(val data: String) : UIState()
+    data class Error(val exception: Exception) : UIState()
+} make generic of this sealed class
+33 Inline value classes
+34 @JvmInline
+35 Type erasure
+36 reflection in kotlin
+
+37 serialize deserialize
+38 comparator , custom comparator in kotlin
+
+
+
+
+encrypt decrypt
+
+graph ql
+
+
+
+done -----
+
+1 generic extension fun
+8. getters setters, computed property
+9 extension property
+10 delegates
+11 loop@
+17 inner
+22 name of a variable type
+23 deep copy shallow copy of copy fun of data class
+24 Instantiate an abstract class
